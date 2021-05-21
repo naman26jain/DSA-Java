@@ -1,0 +1,12 @@
+BRIAN KARNIGHAN ALGORITHM to calculate number of set bits in and integer
+
+in this start from the right most bits, as soon as the counter encounters the set bit in increaments the counter by one and toggles the set bit to unset bit.
+
+
+algo:
+ while(num>0){
+        num=(num&(num-1));
+        count++;
+ }
+
+ Time complexity =O(no.setBits)
