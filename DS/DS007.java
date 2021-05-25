@@ -1,6 +1,6 @@
 //implementing stacks using arrays and linked list
 import java.util.*;
-
+//implementing stack and its function using arraylist
 class ownStack{
     int size;
     ownStack(int s){
@@ -42,7 +42,7 @@ class ownStack{
     }
 
 }
-
+// for implementation in linked list we do all the operations on the head node ex: to pop we just do head=head.next
 public class DS007 {
     public static void main(String[] args){
         //to use stack frameword
