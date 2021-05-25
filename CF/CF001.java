@@ -2,7 +2,6 @@
 // Java program to demonstrate the
 // working of ArrayList in Java
 
-import java.io.*;
 import java.util.*;
 
 public class CF001 {
